@@ -6,9 +6,10 @@
 .banner{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)),url(favoritecar.jpg);
+    background-image: url('gradient.jpg');
     background-size: cover;
     background-position: center;
+
 }
 .navbar{
     width: 85%;
@@ -41,11 +42,12 @@
     position: absolute;
     left: 0;
     bottom: -10px;
-    transition: 0.5s;
+    transition: 0.8s;
 }
 .navbar ul li:hover:after{
     width: 100%;
 }
+
 .content{
     width: 100%;
     position: absolute;
@@ -58,6 +60,11 @@
     font-size: 60px;
     margin-top: 80px;
 }
+.content h2{
+    font-size: 40px;
+    margin-top: 80px;
+}
+
 .content p{
     margin: 20px auto;
     font-weight: 100;
@@ -86,11 +93,43 @@ span{
     left: 0;
     bottom: 0;
     z-index: -1;
-    transition: 0.5s;
+    transition: 0.8s;
 }
 button:hover span{
     width: 100%;
 }
 button:hover{
-    border: none;
+    border: 2px solid #FFF;
+    background: #C8A2C8;
+    text-align: center;
+    font-weight: bold;
+}
+
+.img-ash1{
+    width: 300px;
+    height: 400px;
+    background-image: url(file:///C:/Users/Lex/Documents/GitHub/3900-Activity2/ash-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-ash2{
+    width: 300px;
+    height: 400px;
+    background-image: url(file:///C:/Users/Lex/Documents/GitHub/3900-Activity2/ash-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-niko1{
+    width: 300px;
+    height: 400px;
+    background-image: url(file:///C:/Users/Lex/Documents/GitHub/3900-Activity2/niko-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-niko2{
+    width: 300px;
+    height: 400px;
+    background-image: url(file:///C:/Users/Lex/Documents/GitHub/3900-Activity2/niko-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
