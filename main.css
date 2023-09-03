@@ -94,18 +94,3 @@ button:hover span{
 button:hover{
     border: none;
 }
-
-/*--------about me---------*/
-.aboutme{
-    margin: 75px 0;
-}
-.title{
-    text-align: center;
-    font-width: bold;
-    margin-bottom: 30px;
-}
-.subtitle{
-    text-align: center;
-    margin-bottom: 70px;
-    font-size: 15px;
-}
