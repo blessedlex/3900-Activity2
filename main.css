@@ -14,7 +14,7 @@
 .navbar{
     width: 85%;
     margin: auto;
-    padding: 35px 0;
+    padding: 25px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -51,7 +51,7 @@
 .content{
     width: 100%;
     position: absolute;
-    top: 25%;
+    top: 15%;
     transform: translateY(-50);
     text-align: center;
     color: #fff;
@@ -61,7 +61,7 @@
     margin-top: 80px;
 }
 .content h2{
-    font-size: 40px;
+    font-size: 50px;
     margin-top: 80px;
 }
 
@@ -106,29 +106,29 @@ button:hover{
 }
 
 .img-ash1{
-    width: 300px;
-    height: 400px;
+    width: 250px;
+    height: 333px;
     background-image: url(file:///C:/Users/Lex/Documents/GitHub/3900-Activity2/ash-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 .img-ash2{
-    width: 300px;
-    height: 400px;
+    width: 250px;
+    height: 333px;
     background-image: url(file:///C:/Users/Lex/Documents/GitHub/3900-Activity2/ash-2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 .img-niko1{
-    width: 300px;
-    height: 400px;
+    width: 250px;
+    height: 333px;
     background-image: url(file:///C:/Users/Lex/Documents/GitHub/3900-Activity2/niko-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 .img-niko2{
-    width: 300px;
-    height: 400px;
+    width: 250px;
+    height: 333px;
     background-image: url(file:///C:/Users/Lex/Documents/GitHub/3900-Activity2/niko-2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
